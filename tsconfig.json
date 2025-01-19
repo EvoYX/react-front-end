@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5", // Ensures compatibility with older browsers
+    "lib": ["dom", "es6"], // Include these standard libraries
+    "jsx": "react-jsx", // Tells TypeScript to use the new JSX transform (React 17+)
+    "moduleResolution": "node", // Allows module resolution to follow Node.js conventions
+    "strict": true, // Enable strict mode for better type-checking
+    "esModuleInterop": true, // Allow default import of CommonJS modules
+    "skipLibCheck": true, // Skip type checking of declaration files (improves build time)
+    "forceConsistentCasingInFileNames": true // Enforces consistent casing in filenames
+  },
+  "include": [
+    "src" // Include the 'src' folder for TypeScript files
+  ],
+  "exclude": [
+    "node_modules" // Exclude the 'node_modules' folder to prevent unnecessary compilation
+  ]
+}
