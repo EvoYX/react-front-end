@@ -1,4 +1,3 @@
-Got it! Here’s a simple, minimal **README.md** file for your project:
 
 ---
 
